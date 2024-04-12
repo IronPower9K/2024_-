@@ -45,9 +45,11 @@ Opencv 실습 2 (2024.04.09)
   (coffee)
   
   <img width="598" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/afb4ac43-c8cf-4dc7-9cd1-0fba85913c15">
+  
   (slic compact 20)
   
   <img width="598" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/02a8ff45-a61a-4021-b27c-9fb96cab0f6c">
+  
   (slic compact 80)
   
   <img width="598" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/02a255c5-7cfd-40ce-86bd-b40c2bbc02d2">
