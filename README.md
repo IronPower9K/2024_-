@@ -2,40 +2,43 @@ Opencv 실습 2 (2024.04.09)
 
   1. 1_sobel.py
     (Original)
-
     <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7c93e8be-dce6-447d-9289-3ea0d407826e">
     
-    (Sobelx)
     
-    <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7b295994-a47c-4856-b75e-9b1a7bf14e47">
+  (Sobelx)
+
     
-    (Sobely)
+  <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7b295994-a47c-4856-b75e-9b1a7bf14e47">
     
-    <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/79921c95-8f41-43d4-bee4-d16391658bbc">
+  (Sobely)
     
-    (edge strength)
+   <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/79921c95-8f41-43d4-bee4-d16391658bbc">
     
-    <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/6556ba83-3da4-4ad1-877a-f0ef66630658">
+  (edge strength)
+    
+  <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/6556ba83-3da4-4ad1-877a-f0ef66630658">
 
 
   2.2_canny.py
     (Original)
     
-    <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/37736efb-2fd8-455c-a4cc-409736545f58">
-    (Canny1)
+  <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/37736efb-2fd8-455c-a4cc-409736545f58">
+  
+  (Canny1)
     
-    <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7887d1e6-e8e7-40df-9a59-7e6a22b032a1">
-    (Canny2)
+  <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7887d1e6-e8e7-40df-9a59-7e6a22b032a1">
+  
+  (Canny2)
     
-    <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e55991d7-449b-4d84-9b63-ac5defb8b0d5">
+   <img width="713" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e55991d7-449b-4d84-9b63-ac5defb8b0d5">
 
   3.3_line_apple.py
-    (apple detection)
+  (apple detection)
     
-    <img width="621" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e9c8aca1-2900-4ab9-ae19-f191ab4813bc">
+  <img width="621" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e9c8aca1-2900-4ab9-ae19-f191ab4813bc">
 
   3.3_line_soccer.py
-    <img width="1429" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/b22027f3-6a59-4b87-8821-9a3814ea898d">
+  <img width="1429" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/b22027f3-6a59-4b87-8821-9a3814ea898d">
 
 
 4.4_section_slic.py
