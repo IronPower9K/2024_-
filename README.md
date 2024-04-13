@@ -60,6 +60,13 @@ Opencv 실습 2 (2024.04.09)
 <img width="559" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/129ab86a-ef9a-4c49-8ec8-49a357d55d02">
 <img width="598" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/2fe9de4e-e47b-4ef2-b9d9-2eda21c4f20b">
 
+4-1.4_optimization_seperate.py
+
+![image](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/f7345689-514f-44f0-90c3-c44bf90df19c)
+
+![image](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/6458cc56-2be1-42d1-b00b-7135a7de88a0)
+
+
 5_time_sharing_division.py
 
 (select SOI)
