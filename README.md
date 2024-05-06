@@ -28,6 +28,29 @@
 <Default>
 <img width="419" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e95716cb-d9b3-4ad2-9da7-6daff9cf7af0">
 
+<nfeatures=0,nOctaveLayers=5>
+<img width="954" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/3ad3d0b5-e579-41b8-8b3c-ab5bdfd671e3">
+
+<nfeatures=0,nOctaveLayers=5,edgeThreshold=3,sigma=1.6>
+=> edgeThreshold를 급격하게 줄임 (10 -> 3) 
+=> 검출되는 FeaturePoint가 현저하게 줄어듦
+<img width="954" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/eca5dd36-e326-4132-a785-d90706eb562c">
+
+<nfeatures=0,nOctaveLayers=15,edgeThreshold=10,sigma=1.6>
+=> nOctaveLayers를 급격하게 높임 (3 -> 15)
+=> Layer가 많아짐에 따라 검출되는 Point가 많아짐
+=> Layer가 깊어짐에 따라 정확도가 떨어지며, OverFitting우려가 됨
+=> 복잡도와 여러 파라미터를 기반으로 그에 비례한 OctaveLayer 설정 필요
+
+<img width="954" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/74446aca-5261-47fa-b183-4f399af0357c">
+
+
+<nfeatures=1000,nOctaveLayers=5,edgeThreshold=10,sigma=1.6>
+=> FeaturePoint 갯수 제한
+=> 제한을 두지 않았을 결우에 비해 갯수감소 및 FeaturePoint가 검출될 때 Distance가 적은 FeaturePoint위주로 검출 확인
+
+<img width="954" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/da40daf0-a970-4941-a4f4-a421b9a138f8">
+
 
 
 3. FLANN.py
