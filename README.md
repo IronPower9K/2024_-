@@ -69,7 +69,8 @@
 
 -> FLANN을 이용하여 Matching후 Homography를 사용하여 Matching된 영역 표시 및 아웃라이어 검출
 
-![Uploading image.png…]()
+<img width="1071" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/f6f8a2bf-348d-4d3d-acb2-eb241aad9962">
+
 
 
 
