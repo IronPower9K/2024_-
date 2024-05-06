@@ -1,3 +1,55 @@
+실습 3 (2024.04.30)
+1. heris.py
+
+
+<결과>
+<img width="198" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/5d31f87e-cf03-403d-b497-bc3e57e61f81">
+
+<Y방향 기울기 검출>
+
+<img width="310" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/3b8394ef-f1ff-4cfe-8f76-1c1d9028766b">
+
+<X방향 기울기 검출>
+
+<img width="266" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/214e843f-1971-4455-bb14-f1a989785033">
+<img width="382" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/c3efdaa7-61c9-4e90-9c91-6d6cb6ee25a4">
+<img width="448" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/99febfa1-1d5c-4b4a-b0be-8c26fdaa29c9">
+
+<Corner 특징 검출>
+
+<img width="232" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/25455b23-7e74-42cd-9ea2-53b913cc6c1d">
+
+
+
+
+
+2. SIFT.py
+<Default>
+<img width="419" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e95716cb-d9b3-4ad2-9da7-6daff9cf7af0">
+
+
+
+3. FLANN.py
+<결과>
+
+<img width="1065" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7943a152-38d2-4a10-b683-b95e3b827f87">
+
+<Terminal>
+
+<img width="1067" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/5cbeeeea-ee2c-4375-a83c-07c5cc3b4159">
+
+
+
+
+4. Homography.py
+
+-> FLANN을 이용하여 Matching후 Homography를 사용하여 Matching된 영역 표시 및 아웃라이어 검출
+
+![Uploading image.png…]()
+
+
+
+
 Opencv 실습 2 (2024.04.09)
 
   1. 1_sobel.py
