@@ -26,12 +26,15 @@
 2. SIFT.py
 
 <Default>
+  
 <img width="419" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e95716cb-d9b3-4ad2-9da7-6daff9cf7af0">
 
 <nfeatures=0,nOctaveLayers=5>
+
 <img width="954" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/3ad3d0b5-e579-41b8-8b3c-ab5bdfd671e3">
 
 <nfeatures=0,nOctaveLayers=5,edgeThreshold=3,sigma=1.6>
+
 => edgeThreshold를 급격하게 줄임 (10 -> 3) 
 => 검출되는 FeaturePoint가 현저하게 줄어듦
 <img width="954" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/eca5dd36-e326-4132-a785-d90706eb562c">
@@ -50,6 +53,11 @@
 => 제한을 두지 않았을 결우에 비해 갯수감소 및 FeaturePoint가 검출될 때 Distance가 적은 FeaturePoint위주로 검출 확인
 
 <img width="954" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/da40daf0-a970-4941-a4f4-a421b9a138f8">
+
+<nfeatures=10000,nOctaveLayers=5,edgeThreshold=10,sigma=1.6>
+
+=> nfeatures를 변경할 경우 특징점 검출 갯수에 영향을 끼침
+<img width="956" alt="image" src="https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7864177e-af31-4b35-8b0c-5d01a71abdec">
 
 
 
