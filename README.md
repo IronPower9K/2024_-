@@ -28,6 +28,7 @@
 6.py
 
 <default>
+
 ![Accurecy_6](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/9a97ed13-22fd-4923-b251-4c6fa3951466)
 
 ![loss_6](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/fbcb022f-b76d-4c31-9129-aa182aae6028)
