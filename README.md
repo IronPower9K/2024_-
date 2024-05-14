@@ -1,10 +1,12 @@
-실습 3 (2024.04.30)
+실습 4 (2024.05.07)
 1.py
+
 ![1_pic](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/dd333331-a50f-4d21-ad16-76eb530a9a50)
 
 ![1_pic_2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/278f1f16-e827-471f-8faa-4473a499f417)
 
 2.py
+
 ![실습2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/a8123887-1f22-414b-adad-a852eb9b6927)
 
 3.py
@@ -12,16 +14,19 @@
 ![실습3](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/660b0e12-fc0d-45f0-8cbd-e7b5b5618fd1)
 
 4.py
+
 ![실습4_sgd](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7b8d439e-ee73-4a87-8e0c-c944cecaad25)
 
 ![실습4](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/3b711aa7-76eb-47cf-9c53-11459348d63a)
 
 5.py
+
 ![Unknown-5](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/73631987-2baa-47c9-aa97-36aa4e51454c)
 
 ![Unknown-6](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/165ef8a6-c1dd-457a-be1a-c0a59805f88c)
 
 6.py
+
 <default>
 ![Accurecy_6](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/9a97ed13-22fd-4923-b251-4c6fa3951466)
 
@@ -37,6 +42,7 @@
 
 
 7.py
+
 ![image](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/c8c5f9c7-267f-4903-b745-5d14f113ee40)
 ![image](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/cba9a35e-4641-4245-8966-dff2423f8293)
 ![image](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/8f82d1ca-41f6-4b5e-90ed-0d26a92b3114)
