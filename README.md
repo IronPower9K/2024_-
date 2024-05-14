@@ -1,4 +1,18 @@
 실습 3 (2024.04.30)
+1.py
+![1_pic](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/dd333331-a50f-4d21-ad16-76eb530a9a50)
+![1_pic](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/dd333331-a50f-4d21-ad16-76eb530a9a50)
+![1_pic_2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/278f1f16-e827-471f-8faa-4473a499f417)
+![1_pic_2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/278f1f16-e827-471f-8faa-4473a499f417)
+
+
+
+
+
+
+
+
+실습 3 (2024.04.30)
 1. heris.py
 
 
