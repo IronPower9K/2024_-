@@ -1,6 +1,18 @@
 실습 4 (2024.05.07)
 1.py
 
+MNIST 데이터셋 로드 및 시각화:
+
+ds.mnist.load_data()를 사용하여 MNIST 데이터셋을 로드
+로드된 데이터셋의 크기를 출력
+첫 10개의 이미지를 시각화하고, 각 이미지의 실제 숫자 레이블을 제목으로 표시
+CIFAR-10 데이터셋 로드 및 시각화:
+
+ds.cifar10.load_data()를 사용하여 CIFAR-10 데이터셋을 로드
+로드된 데이터셋의 크기를 출력
+CIFAR-10 클래스 이름을 정의
+첫 10개의 이미지를 시각화하고, 각 이미지의 실제 클래스 이름을 제목으로 표시
+
 ![1_pic](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/dd333331-a50f-4d21-ad16-76eb530a9a50)
 
 ![1_pic_2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/278f1f16-e827-471f-8faa-4473a499f417)
