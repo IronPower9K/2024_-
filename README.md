@@ -36,6 +36,13 @@
 6_modify.py
 
 
+성능 개선 방법
+-> 각  Layer당 정규화 적용
+-> Dropout 적용 시 은닉층 별로 차등하여 적용
+-> Overfitting을 해결 하기 위해 첫번째 은닉층보다 마지막 은닉층으로 갈수록 순차적으로 낮은 값을 제시함으로써 최대한 최초 은닉층에서 Dropout이 많이 되게한 후 서서히 Dropout양을 줄임으로써, 최대한 Overfitting을 방지하며, 출력층으로 전달되는 노드 값을 최대로 하기 위함.
+
+=> Train Accuracy 와  Val Accuracy간 격차가 개선전에 비해 현저히 떨어짐을 확인함.
+
 ![Accurecy_6_add](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/04931d6d-eda4-494c-8e4b-566bb3f9dfa7)
 
 
