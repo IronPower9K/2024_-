@@ -2,9 +2,31 @@ train 5 (2024.05.22)
 
 1.py
 
+MNIST 데이터셋 로드 및 전처리:
+MNIST 데이터셋을 로드
+데이터셋의 차원을 CNN 입력 형태로 변환(28x28 이미지, 1채널).
+픽셀 값을 [0, 1] 범위로 정규화
+레이블을 원-핫 인코딩 형태로 변환
+
+CNN 모델 구축:
+CNN 모델을 Sequential 방식으로 구축
+3개의 Conv2D 레이어와 MaxPooling2D 레이어를 추가
+Flatten 레이어를 추가하여 다차원 출력을 1차원으로 변환
+2개의 Dense 레이어를 추가하여 출력 노드를 정의. 마지막 레이어는 10개의 클래스에 대한 softmax 활성화 함수를 사용.
+
+모델 컴파일 및 학습:
+모델을 컴파일. 손실 함수는 'categorical_crossentropy', 옵티마이저는 'Adam', 평가는 'accuracy'를 사용.
+학습 데이터를 사용하여 모델을 학습. 배치 크기는 128, 총 에포크 수는 30, 검증 데이터는 테스트 데이터로 설정.
+
 ![1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/0e518e2f-ae54-4213-be00-c11e1de6134e)
 
 2.py
+
+CNN 모델 구축:
+CNN 모델을 Sequential 방식으로 구축
+여러 개의 Conv2D, MaxPooling2D, Dropout 레이어를 추가
+Flatten 레이어를 추가하여 다차원 출력을 1차원으로 변환
+2개의 Dense 레이어를 추가하여 출력 노드를 정의 마지막 레이어는 10개의 클래스에 대한 softmax 활성화 함수를 사용
 
 ![2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/3f48af74-3fef-483d-b2cf-f7991ac8a156)
 
@@ -12,19 +34,37 @@ train 5 (2024.05.22)
 
 3.py
 
+
+
 ![3](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/215337d3-626b-485a-83f0-a30925497d65)
 
 4.py
 
+데이터셋의 픽셀 값을 [0, 1] 범위로 정규화
+훈련 데이터셋에서 첫 15개의 이미지를 시각화, 각 이미지의 실제 클래스 이름을 제목으로 표시
+생성된 이미지와 레이블을 시각화
+각 반복마다 배치 크기만큼의 이미지를 생성하고 시각화
+3번 반복하여 다양한 증강 결과를 시각화
+
 ![4](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e5e2602a-b792-4d81-9ee6-4ab5a0f82d3c)
 
 5.py
+
+모델 로드: 사전 학습된 ResNet50 모델을 로드하여 이미지넷 데이터셋의 가중치를 사용
+이미지 로드 및 전처리: 'rabbit.jpg' 이미지를 로드 ResNet50 모델의 입력 형식에 맞게 전처리
+예측 수행: 모델을 사용하여 이미지를 예측, 상위 5개의 예측 결과를 디코딩하여 출력
+이미지에 결과 표시: 예측 결과를 이미지에 텍스트로 표시, 화면에 시각화
 
 ![5](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7815172c-3fd1-4bd5-95a4-74a4e2521012)
 
 ![5_log](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7febc4c0-1f98-4de1-bf86-98b10533acdf)
 
 6.py
+
+사전 학습된 DenseNet121 모델을 백본으로 사용하고, 최상위 레이어를 제거
+Rescaling 레이어를 추가하여 입력 이미지를 정규화
+DenseNet121의 출력 텐서를 1차원으로 평탄화, 추가적인 Dense 레이어와 Dropout 레이어를 추가
+마지막 레이어는 120개의 클래스에 대해 softmax 활성화 함수를 사용
 
 ![6_acc](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/cb7668c2-eb07-460e-a98d-6c4c26910963)
 
