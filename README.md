@@ -1,3 +1,46 @@
+train 5 (2024.05.22)
+
+1.py
+
+![1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/0e518e2f-ae54-4213-be00-c11e1de6134e)
+
+2.py
+
+![2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/3f48af74-3fef-483d-b2cf-f7991ac8a156)
+
+![2_loss](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/dc76a4c0-4a5b-41e5-baf7-6aa2271cf907)
+
+3.py
+
+![3](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/215337d3-626b-485a-83f0-a30925497d65)
+
+4.py
+
+![4](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e5e2602a-b792-4d81-9ee6-4ab5a0f82d3c)
+
+5.py
+
+![5](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7815172c-3fd1-4bd5-95a4-74a4e2521012)
+
+![5_log](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/7febc4c0-1f98-4de1-bf86-98b10533acdf)
+
+6.py
+
+![6_acc](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/cb7668c2-eb07-460e-a98d-6c4c26910963)
+
+![6_loss](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/8459a96c-f743-4e42-aa9c-3044827a10b5)
+
+7.py
+
+(source picture)
+
+![1685251710889870](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/38ddd862-de24-4c4b-b00b-0a91583c6f8c)
+
+![7](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/3f6fa635-d75a-4557-9ea6-ffca71f197d6)
+
+
+
+
 실습 4 (2024.05.07)
 1.py
 
