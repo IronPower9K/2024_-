@@ -48,6 +48,15 @@ Flatten 레이어를 추가하여 다차원 출력을 1차원으로 변환
 
 ![4](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/e5e2602a-b792-4d81-9ee6-4ab5a0f82d3c)
 
+![4-2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/b5f397d2-2078-4b27-ae87-d40f42ecfbe9)
+
+![4-3](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/1c5ae768-6554-4da6-9b53-af1a076dd8b6)
+
+![4-4](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/2f3e391c-c2e7-4e89-92d5-7b83f879cff4)
+
+
+
+
 5.py
 
 모델 로드: 사전 학습된 ResNet50 모델을 로드하여 이미지넷 데이터셋의 가중치를 사용
