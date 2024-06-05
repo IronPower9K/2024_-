@@ -1,3 +1,45 @@
+
+
+
+train 6 (2024.06.06)
+
+1.py
+
+construct_yolo_v3() 함수는 coco_names.txt 파일에서 클래스 이름을 읽어오고, YOLOv3 가중치(yolov3.weights)와 구성 파일(yolov3.cfg)을 로드하여 YOLO 모델을 초기화
+모델의 출력 레이어 이름을 가져와 반환
+
+객체 감지 함수:
+yolo_detect() 함수는 입력 이미지에서 객체를 감지
+이미지를 전처리하여 YOLO 모델에 입력하고, 모델의 출력을 바탕으로 각 객체의 경계 상자, 신뢰도, 클래스 ID를 추출
+비최대 억제(NMS)를 사용하여 중복되는 경계 상자를 제거하고 최종 감지 객체 목록을 반환
+
+
+
+
+![6-1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/132bd6ea-64a4-4d77-9a6f-76acf3e6f32f)
+
+4.py
+
+데이터 로딩 클래스:
+
+OxfordPets 클래스는 Keras의 Sequence를 상속받아 배치 단위로 데이터를 로딩
+__len__ 메서드는 데이터셋의 총 배치 수를 반환하고, __getitem__ 메서드는 배치 단위로 이미지를 로드하고 전처리
+U-Net 모델 정의:
+
+make_model() 함수는 U-Net 구조를 기반으로 한 분할 모델을 정의
+입력 이미지를 받아 다운샘플링(축소) 경로와 업샘플링(확대) 경로를 거쳐 최종 출력으로 다중 클래스 소프트맥스 활성화 함수를 사용
+데이터셋 분할:
+
+데이터를 훈련 세트와 테스트 세트로 나누고, OxfordPets 클래스를 사용하여 훈련 및 테스트 데이터 생성기를 생성
+
+
+![6-4-2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/06acc547-4085-4e11-9d59-abb92b5a06c5)
+
+![6-4-1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/98853875-f1a3-48bc-adbf-a54fb179277a)
+
+
+
+
 train 5 (2024.05.22)
 
 1.py
