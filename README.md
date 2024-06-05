@@ -14,7 +14,8 @@ yolo_detect() 함수는 입력 이미지에서 객체를 감지
 비최대 억제(NMS)를 사용하여 중복되는 경계 상자를 제거하고 최종 감지 객체 목록을 반환
 
 
-![6-1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/5ca95001-813d-4d02-97dc-bad8772df595)
+![6-1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/d510188a-f8fb-4195-87fd-f583ae017094)
+
 
 
 
