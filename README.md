@@ -14,9 +14,10 @@ yolo_detect() 함수는 입력 이미지에서 객체를 감지
 비최대 억제(NMS)를 사용하여 중복되는 경계 상자를 제거하고 최종 감지 객체 목록을 반환
 
 
+![6-1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/5ca95001-813d-4d02-97dc-bad8772df595)
 
 
-![6-1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/132bd6ea-64a4-4d77-9a6f-76acf3e6f32f)
+
 
 4.py
 
@@ -32,10 +33,11 @@ make_model() 함수는 U-Net 구조를 기반으로 한 분할 모델을 정의
 
 데이터를 훈련 세트와 테스트 세트로 나누고, OxfordPets 클래스를 사용하여 훈련 및 테스트 데이터 생성기를 생성
 
+![6-4-2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/ffcfb2c9-7cfe-4ee4-9aef-6eea086f5b17)
 
-![6-4-2](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/06acc547-4085-4e11-9d59-abb92b5a06c5)
 
-![6-4-1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/98853875-f1a3-48bc-adbf-a54fb179277a)
+![6-4-1](https://github.com/IronPower9K/2024_computer_vision/assets/114505607/9c931724-ce06-47e2-9ea7-34906bf826a2)
+
 
 
 
